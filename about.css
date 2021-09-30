@@ -21,21 +21,21 @@
   }
   
   /* 1200px / 16px = 75em */
-  @media (max-width: 75em) {
+  @media screen and (max-width: 75em) {
     html {
       font-size: 60%;
     }
   }
   
   /* 980px / 16px = 61.25em */
-  @media (max-width: 61.25em) {
+  @media screen and (max-width: 61.25em) {
     html {
       font-size: 58%;
     }
   }
   
   /* 460px / 16px = 28.75em */
-  @media (max-width: 28.75em) {
+  @media screen and (max-width: 28.75em) {
     html {
       font-size: 55%;
     }
@@ -67,7 +67,7 @@
     width: 100%;
   }
   
-  @media (max-width: 400px) {
+  @media screen and (max-width: 28.75em) {
     header {
       flex-direction: column;
       justify-content: center;
@@ -128,7 +128,7 @@
     left: 0;
   }
   
-  @media (max-width: 900px) {
+  @media screen and (max-width: 28.75em) {
     nav {
       justify-content: center;
     }
@@ -221,7 +221,7 @@
     display: none;
   }
   
-  @media (max-width: 900px) {
+  @media screen and (max-width: 28.75em) {
     #welcome-section {
       margin-top: 100px;
     }
@@ -252,7 +252,7 @@
     justify-content: space-evenly;
   }
   
-  @media (max-width: 900px) {
+  @media screen and (max-width: 28.75em) {
     .picture-and-text {
       width: 100%;
       flex-direction: column;
@@ -274,7 +274,7 @@
     padding-bottom: 20px;
   }
   
-  @media (max-width: 900px) {
+  @media screen and (max-width: 28.75em) {
     .text h2 {
       text-align: center;
       font-size: 3rem;
@@ -298,7 +298,7 @@
     border: none;
   }
   
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 28.75em) {
     .facts-grid-container {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -362,7 +362,7 @@
     height: 200px;
   }
   
-  @media (max-width: 28.75em) {
+  @media screen and (max-width: 28.75em) {
     .contact-container {
       display: block;
       margin-bottom: 15;
@@ -408,7 +408,7 @@
     float: right;
   }
   
-  @media (max-width: 900px) {
+  @media screen and (max-width: 28.75em) {
     #footer {
     font-size: 13.5px;
   }

@@ -21,21 +21,21 @@ html {
 }
 
 /* 1200px / 16px = 75em */
-@media (max-width: 75em) {
+@media screen and (max-width: 75em) {
   html {
     font-size: 60%;
   }
 }
 
 /* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
+@media screen and (max-width: 61.25em) {
   html {
     font-size: 58%;
   }
 }
 
 /* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
+@media screen and (max-width: 28.75em) {
   html {
     font-size: 55%;
   }
@@ -57,7 +57,7 @@ header {
   width: 100%;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 61.25em) {
   header {
     flex-direction: column;
     justify-content: center;
@@ -114,7 +114,7 @@ nav {
   left: 0;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 61.25em) {
   nav {
     justify-content: center;
   }
@@ -141,10 +141,6 @@ nav li {
 
 #nav-link:hover {
   color: var(--main-white);
-}
-
-section {
-  
 }
 
 /* Welcome Section */
@@ -182,7 +178,7 @@ section {
   display: none;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 61.25em) {
   #welcome-section {
     margin-top: 100px;
   }
@@ -221,7 +217,7 @@ button p:hover {
   grid-gap: 45px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 28.75em) {
   #grid-container {
       grid-template-columns: 1fr 1fr;
   }
@@ -276,7 +272,7 @@ button p:hover {
   list-style: none;
 }
 
-@media (max-width: 28.75em) {
+@media screen and (max-width: 28.75em) {
   #projects ul {
     width: 90%;
   }
@@ -301,7 +297,7 @@ button p:hover {
   margin-top: 10px;
 }
 
-@media (max-width: 28.75em) {
+@media screen and (max-width: 28.75em) {
   #Contact ul {
     flex-direction: column;
     align-items: flex-start;
@@ -365,7 +361,7 @@ button p:hover {
   float: right;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 28.75em) {
   #footer {
   font-size: 13.5px;
 }
